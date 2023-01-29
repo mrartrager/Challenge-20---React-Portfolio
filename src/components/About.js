@@ -17,7 +17,7 @@ const About = () => {
                     </p>
 
                     <p>
-                        "IT WAS SAID YOU WOULD JOIN A DEVELOPMENT TEAM, NOT FREELANCE!" I have many front end
+                        "IT WAS SAID I WOULD JOIN A DEVELOPMENT TEAM, NOT FREELANCE!" I have many front end
                         skills that can be brought to the table. I love working in React, and have found that
                         Tailwind and React work much like a Jedi and their Apprenctance. As a Graphic Designer I
                         also understand that UI/UX is just as important as functionaltiy and can apply those aspects
