@@ -47,7 +47,7 @@ const Project =()=>{
           {projects.map((projects, i) => {
             return (
               <div>
-                <img src={ projects.img } alt={projects.title} />
+                <img className='' src={ projects.img } alt={projects.title} />
                 <div>
                   <p>
                     {projects.desc}
