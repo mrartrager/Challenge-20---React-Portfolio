@@ -1,23 +1,23 @@
 import React from 'react';
-
+// import Img from './playablePiano.png' 
 const Project =()=>{
     const projects =[
         {
-            img: 'Playable Piano',
+            img: '/images/playablePiano.png',
             title: 'Playable Piano',
             desc:'a mini piano than can be played from your computer keyboard',
             link:"https://mrartrager.github.io/Playable-Piano/",
             repo:"https://github.com/mrartrager/Playable-Piano",
         },
         {
-            img: 'Gameboxed',
+            img: '/images/gameboxed.png',
             title: 'Gameboxed',
             desc:'A game website where users can create an account, review games, add favorite games to thier profile,',
             link:"https://gamebox.herokuapp.com/",
             repo:"https://github.com/WesleyLere/Gameboxd",
         },
         {
-            img: 'Horoscope',
+            img: '/images/horoscope.png',
             title: 'Horoscope',
             desc:'A website where users can search a date, find a list of famous people born that day, and see thier horoscope',
             link:"https://nwsheats.github.io/Sign-of-the-Times/",
@@ -44,21 +44,22 @@ const Project =()=>{
         </div>
   
         <div>
-          {projects.map((project, i) => {
+          {projects.map((projects, i) => {
             return (
               <div>
-                <img src={project.img} alt={project.title} />
+                <img src={ projects.img } alt={projects.title} />
                 <div>
                   <p>
-                    {project.desc}
+                    {projects.desc}
                   </p>
   
                   <div>
-                    <a href={project.live}>
+                    <a href={projects.link}>
                       Live
                     </a>
-                    <a href={project.code}>
-                      Code
+                    <br></br>
+                    <a href={projects.repo}>
+                      Repo
                     </a>
                   </div>
                 </div>
