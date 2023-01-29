@@ -8,9 +8,7 @@ const Contact = () => {
                     Contact Me:
                 </h2>
                 <p>
-                    I am currently looking for a Front End Developer Postion. My contact info 
-                    is below if you would like to get in touch. Thank you for taking time to 
-                    look at this. Hope you enjoyed the Star Wars puns through out. 
+                I am actively seeking a position as a Front-End Developer. Should you be interested in contacting me, my contact information is provided below. I sincerely appreciate your consideration and thank you for taking the time to review this material. I hope that the Star Wars references throughout were found to be entertaining.
                 </p>
 
                 <p >

@@ -10,31 +10,23 @@ const About = () => {
                     </h1>
 
                     <p className="font-sans text-2xl pb-5">
-                        "Hello There". My name is Matthew Waldron, most people call me Wally.
-                        I am a lot of things. I am a front end devloper, a graphic desginer,
-                        an artist, and huge nerd for all things Star Wars, Batman, and Zelda related.
+                        "Hello There". My name is Matthew Waldron, commonly referred to as Wally. I am a multi-faceted individual with experience in front-end development, graphic design, and art. Additionally, I possess a strong passion for Star Wars, Batman, and Zelda.
                     </p>
 
                     <p className="font-sans text-2xl pb-5">
-                        "IT WAS SAID I WOULD JOIN A DEVELOPMENT TEAM, NOT FREELANCE!" I have many front end
-                        skills that can be brought to the table. I love working in React, and have found that
-                        Tailwind and React work much like a Jedi and their Apprenctance. As a Graphic Designer I
-                        also understand that UI/UX is just as important as functionaltiy and can apply those aspects
-                        to my work flow. I am also very familair with Bootstrap as well.
+                        "IT WAS SAID I WOULD JOIN A DEVELOPMENT TEAM, NOT FREELANCE!"  My front-end skill set is vast and can be utilized to its fullest potential within a team environment. I have a particular affinity for React and have discovered that Tailwind and React work seamlessly together, much like a Jedi and their apprentice. As a graphic designer, I also understand the significance of user interface and user experience and strive to incorporate those elements into my workflow. Furthermore, I am well-versed in Bootstrap.
                     </p>
 
                     <p className="font-sans text-2xl pb-5">
-                        As most of my time is spent on the front end, I also am very familair with the back end as well
-                        I know how to use Node.Js, Express.Js, MySQL, MongoDB, & Mongoose.
+                    Although my primary focus is on the front-end, I am also well-acquainted with the back-end, proficient in the use of Node.Js, Express.Js, MySQL, MongoDB, and Mongoose.
                     </p>
 
                     <p className="font-sans text-2xl pb-5">
-                        In my spare time I am either bouldering at a local rock climbing gym, reading, drawing, or nerding out
-                        with the latest video game or tv show.
+                    In my leisure time, I enjoy rock climbing, reading, drawing, and immersing myself in the latest video games and television shows.
                     </p>
 
                     <p className="font-sans text-2xl pb-5">
-                        <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2 flex justify-items-center justify-center">Summary</h2>
+                        <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2 flex justify-items-center justify-cente">Summary</h2>
                         <ul className="flex flex-wrap p-5 m-5">
                             <li className="p-2 m-5 hover:text-amber-400 font-bold cursor-pointer">REACT</li>
                             <li className="p-2 m-5 hover:text-lime-400 font-bold cursor-pointer">Tailwind</li>
@@ -48,7 +40,7 @@ const About = () => {
                     </p>
                 </div>
                 <div>
-                    <img className='blur-sm hover:transition ease-in-out hover:blur-none' src='/images/Profile.png' alt='image of person who made this site'></img>
+                    <img className='m-10 blur-sm hover:transition ease-in-out hover:blur-none hover:public/images/About.png' src='/images/Profile.png' alt='image of person who made this site'></img>
                 </div>
             </div>
         </section>

@@ -1,11 +1,12 @@
 import React from 'react';
+
 // import Img from './playablePiano.png' 
 const Project =()=>{
     const projects =[
         {
             img: '/images/playablePiano.png',
             title: 'Playable Piano',
-            desc:'a mini piano than can be played from your computer keyboard',
+            desc:'A mini piano than can be played from your computer keyboard',
             link:"https://mrartrager.github.io/Playable-Piano/",
             repo:"https://github.com/mrartrager/Playable-Piano",
         },
@@ -26,17 +27,15 @@ const Project =()=>{
     ];
 
     return (
-        <section>
-        <div >
+        <section className="m-5 p-5 container mx-auto grid md:justify-between">
+        <div className=" bg-gray-200 m-5 p-5 shadow-2xl rounded-2xl border-double border-4 border-sky-500" >
           <div >
-            <h2 >
+            <h2 className='text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2'>
               Projects
             </h2>
   
-            <p >
-              These are some of my favorite projects. Some of them were built with a team of other
-              developers, while some of them were created just buy me. But on all of them, I did the
-              front end design. Most use tailwind framwork.
+            <p className="font-sans text-2xl pb-5">
+            The following are a selection of my most notable projects. Some were executed in collaboration with other developers, whereas others were independently completed by me. In all cases, I was responsible for the front-end design. The majority of these projects were developed utilizing the Tailwind framework.
             </p>
           </div>
   
@@ -46,20 +45,21 @@ const Project =()=>{
         <div>
           {projects.map((projects, i) => {
             return (
-              <div>
-                <img className='' src={ projects.img } alt={projects.title} />
-                <div>
-                  <p>
+              <div className='hover:scale-105 hover:transition ease-in-out p-10 m-10 border-double border-4 rounded-2xl border-indigo-600'>
+                <img className="border-solid border-8 rounded-2xl" src={ projects.img } alt={projects.title} />
+                <div className=''>
+                  <p className='font-sans text-2xl pb-5 m-5 p-5'>
                     {projects.desc}
                   </p>
   
-                  <div>
+                  <div className='cursor-pointer text-3xl hover:' >
                     <a href={projects.link}>
-                      Live
+                      Live Link
                     </a>
-                    <br></br>
+                    </div>
+                    <div className='cursor-pointer text-3xl'>
                     <a href={projects.repo}>
-                      Repo
+                      Github Repo for project
                     </a>
                   </div>
                 </div>
