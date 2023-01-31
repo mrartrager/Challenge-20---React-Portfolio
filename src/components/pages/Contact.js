@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section>
-            <div >
+        <section className='container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between'>
+            <div className='about-info bg-gray-200 p-5 shadow-2xl rounded-2xl border-double border-4 border-sky-500'>
                 <h2 >
                     Contact Me:
                 </h2>
@@ -17,6 +17,9 @@ const Contact = () => {
                 <p >
                     <span>Phone:</span> 414-897-6640
                 </p>
+                <form>
+                    
+                </form>
             </div>
         </section>
     )

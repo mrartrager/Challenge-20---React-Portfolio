@@ -28,14 +28,14 @@ const About = () => {
                     <p className="font-sans text-2xl pb-5">
                         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2 flex justify-items-center justify-cente">Summary</h2>
                         <ul className="flex flex-wrap p-5 m-5">
-                            <li className="p-2 m-5 hover:text-amber-400 font-bold cursor-pointer">REACT</li>
-                            <li className="p-2 m-5 hover:text-lime-400 font-bold cursor-pointer">Tailwind</li>
-                            <li className="p-2 m-5 hover:text-cyan-500 font-bold cursor-pointer">BootStrap</li>
-                            <li className="p-2 m-5 hover:text-violet-500 font-bold cursor-pointer">NodeJs</li>
-                            <li className="p-2 m-5 hover:text-rose-400 font-bold cursor-pointer">Express</li>
-                            <li className="p-2 m-5 hover:text-emerald-500 font-bold cursor-pointer">MySQL</li>
-                            <li className="p-2 m-5 hover:text-purple-600 font-bold cursor-pointer">MongoDB</li>
-                            <li className="p-2 m-5 hover:text-red-500 font-bold cursor-pointer">Mongoose</li>
+                            <li className="p-2 m-5 hover:shadow-md hover:text-amber-400 font-bold cursor-pointer">REACT</li>
+                            <li className="p-2 m-5 hover:shadow-md hover:text-lime-400 font-bold cursor-pointer">Tailwind</li>
+                            <li className="p-2 m-5 hover:shadow-md hover:text-cyan-500 font-bold cursor-pointer">BootStrap</li>
+                            <li className="p-2 m-5 hover:shadow-md hover:text-violet-500 font-bold cursor-pointer">NodeJs</li>
+                            <li className="p-2 m-5 hover:shadow-md hover:text-rose-400 font-bold cursor-pointer">Express</li>
+                            <li className="p-2 m-5 hover:shadow-md hover:text-emerald-500 font-bold cursor-pointer">MySQL</li>
+                            <li className="p-2 m-5 hover:shadow-md hover:text-purple-600 font-bold cursor-pointer">MongoDB</li>
+                            <li className="p-2 m-5 hover:shadow-md hover:text-red-500 font-bold cursor-pointer">Mongoose</li>
                         </ul>
                     </p>
                 </div>

@@ -52,12 +52,12 @@ const Project =()=>{
                     {projects.desc}
                   </p>
   
-                  <div className='cursor-pointer text-3xl hover:' >
+                  <div className='cursor-pointer text-3xl hover:text-purple-500' >
                     <a href={projects.link}>
                       Live Link
                     </a>
                     </div>
-                    <div className='cursor-pointer text-3xl'>
+                    <div className='cursor-pointer text-3xl hover:text-orange-400'>
                     <a href={projects.repo}>
                       Github Repo for project
                     </a>
