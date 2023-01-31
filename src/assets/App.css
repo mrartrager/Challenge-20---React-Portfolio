@@ -5,8 +5,8 @@ html {
 *{
     font-family: 'Oswald', sans-serif
  }
- 
-body {
+
+/* body {
     background-image: linear-gradient(
   45deg,
   hsl(240deg 5% 75%) 0%,
@@ -25,7 +25,7 @@ body {
   hsl(50deg 100% 59%) 93%,
   hsl(55deg 100% 50%) 100%
 );
-}
+} */
 /* 
 
 /* color */
@@ -43,7 +43,7 @@ body {
 
 /* .text-accent {
     color: #7477FF;
-} */ */
+} */ 
 
 
 /* nav li a {

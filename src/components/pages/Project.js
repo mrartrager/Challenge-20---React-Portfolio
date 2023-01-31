@@ -27,7 +27,7 @@ const Project =()=>{
     ];
 
     return (
-        <section className="m-5 p-5 container mx-auto grid md:justify-between">
+        <section className="bg-gradient-to-b from-neutral-300 bg-cover to-neutral-50 p-10 rounded-3xl m-5 container mx-auto grid md:justify-between">
         <div className=" bg-gray-200 m-5 p-5 shadow-2xl rounded-2xl border-double border-4 border-sky-500" >
           <div >
             <h2 className='text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2'>

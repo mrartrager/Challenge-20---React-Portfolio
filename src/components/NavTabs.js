@@ -4,7 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="bg-slate-600 flex flex-row justify-center hover:bg-slate-700 rounded-3xl m-10 text-xl font-semibold">
+    <div className="bg-slate-600 flex flex-row justify-center hover:bg-slate-700 hover:shadow-inner rounded-3xl m-10 text-xl font-semibold">
       <div className="">
         <div className="">
         <nav className="text-neutral-200 justify-center flex flex-row nav nav-tabs">
