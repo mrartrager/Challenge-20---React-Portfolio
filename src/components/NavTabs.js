@@ -4,11 +4,11 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="bg-slate-600 flex flex-row justify-center m-10 text-xl font-semibold">
+    <div className="bg-slate-600 flex flex-row justify-center hover:bg-slate-700 rounded-3xl m-10 text-xl font-semibold">
       <div className="">
         <div className="">
         <nav className="text-neutral-200 justify-center flex flex-row nav nav-tabs">
-      <li className="m-5 p-5 nav-item">
+      <li className="hover:scale-[1.2] hover:text-amber-500 hover:drop-shadow-lg m-5 p-5 nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -19,7 +19,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className=" m-5 p-5 nav-item">
+      <li className="hover:scale-[1.2] hover:text-blue-500 hover:drop-shadow-lg m-5 p-5 nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -29,7 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="m-5 p-5 nav-item">
+      <li className="hover:scale-[1.2] hover:text-emerald-500 hover:drop-shadow-lg text m-5 p-5 nav-item">
         <a
           href="#Projects"
           onClick={() => handlePageChange('Projects')}
@@ -39,7 +39,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Projects
         </a>
       </li>
-      <li className="m-5 p-5 nav-item">
+      <li className="hover:scale-[1.2] hover:text-indigo-500 hover:drop-shadow-lg m-5 p-5 nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}

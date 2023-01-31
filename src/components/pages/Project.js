@@ -45,7 +45,7 @@ const Project =()=>{
         <div>
           {projects.map((projects, i) => {
             return (
-              <div className='hover:scale-105 hover:transition ease-in-out p-10 m-10 border-double border-4 rounded-2xl border-indigo-600'>
+              <div className='hover:scale-[.9] transition ease-in-out p-10 m-10 border-double border-4 rounded-2xl border-indigo-600'>
                 <img className="border-solid border-8 rounded-2xl" src={ projects.img } alt={projects.title} />
                 <div className=''>
                   <p className='font-sans text-2xl pb-5 m-5 p-5'>

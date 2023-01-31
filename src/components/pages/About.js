@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section className="text-slate px-5 py-32">
+        <section className="bg-gradient-to-b from-slate-700 to-neutral-50 text-slate px-5 py-32">
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="about-info bg-gray-200 p-5 shadow-2xl rounded-2xl border-double border-4 border-sky-500">
                     <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
@@ -28,19 +28,19 @@ const About = () => {
                     <p className="font-sans text-2xl pb-5">
                         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2 flex justify-items-center justify-cente">Summary</h2>
                         <ul className="flex flex-wrap p-5 m-5">
-                            <li className="p-2 m-5 hover:shadow-md hover:text-amber-400 font-bold cursor-pointer">REACT</li>
-                            <li className="p-2 m-5 hover:shadow-md hover:text-lime-400 font-bold cursor-pointer">Tailwind</li>
-                            <li className="p-2 m-5 hover:shadow-md hover:text-cyan-500 font-bold cursor-pointer">BootStrap</li>
-                            <li className="p-2 m-5 hover:shadow-md hover:text-violet-500 font-bold cursor-pointer">NodeJs</li>
-                            <li className="p-2 m-5 hover:shadow-md hover:text-rose-400 font-bold cursor-pointer">Express</li>
-                            <li className="p-2 m-5 hover:shadow-md hover:text-emerald-500 font-bold cursor-pointer">MySQL</li>
-                            <li className="p-2 m-5 hover:shadow-md hover:text-purple-600 font-bold cursor-pointer">MongoDB</li>
-                            <li className="p-2 m-5 hover:shadow-md hover:text-red-500 font-bold cursor-pointer">Mongoose</li>
+                            <li className="p-2 m-5 hover:shadow-lg hover:drop-shadow-lg hover:text-amber-700 font-bold cursor-pointer">REACT</li>
+                            <li className="p-2 m-5 hover:shadow-lg hover:drop-shadow-lg hover:text-lime-700 font-bold cursor-pointer">Tailwind</li>
+                            <li className="p-2 m-5 hover:shadow-lg hover:drop-shadow-lg hover:text-cyan-500 font-bold cursor-pointer">BootStrap</li>
+                            <li className="p-2 m-5 hover:shadow-lg hover:drop-shadow-lg hover:text-violet-500 font-bold cursor-pointer">NodeJs</li>
+                            <li className="p-2 m-5 hover:shadow-lg hover:drop-shadow-lg hover:text-rose-400 font-bold cursor-pointer">Express</li>
+                            <li className="p-2 m-5 hover:shadow-lg hover:drop-shadow-lg hover:text-emerald-500 font-bold cursor-pointer">MySQL</li>
+                            <li className="p-2 m-5 hover:shadow-lg hover:drop-shadow-lg hover:text-purple-600 font-bold cursor-pointer">MongoDB</li>
+                            <li className="p-2 m-5 hover:shadow-lg hover:drop-shadow-lg hover:text-red-500 font-bold cursor-pointer">Mongoose</li>
                         </ul>
                     </p>
                 </div>
                 <div>
-                    <img className='m-10 blur-sm hover:transition ease-in-out hover:blur-none hover:public/images/About.png' src='/images/Profile.png' alt='image of person who made this site'></img>
+                    <img className='rounded-full m-10 p-10 blur-sm transition ease-in-out hover:blur-none hover:drop-shadow-2xl hover:rotate-[17deg] hover:public/images/About.png' src='/images/Profile.png' alt='image of person who made this site'></img>
                 </div>
             </div>
         </section>
