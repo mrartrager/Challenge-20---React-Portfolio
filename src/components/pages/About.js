@@ -18,11 +18,11 @@ const About = () => {
                     </p>
 
                     <p className="font-sans text-2xl pb-5">
-                    Although my primary focus is on the front-end, I am also well-acquainted with the back-end, proficient in the use of Node.Js, Express.Js, MySQL, MongoDB, and Mongoose.
+                        Although my primary focus is on the front-end, I am also well-acquainted with the back-end, proficient in the use of Node.Js, Express.Js, MySQL, MongoDB, and Mongoose.
                     </p>
 
                     <p className="font-sans text-2xl pb-5">
-                    In my leisure time, I enjoy rock climbing, reading, drawing, and immersing myself in the latest video games and television shows.
+                        In my leisure time, I enjoy rock climbing, reading, drawing, and immersing myself in the latest video games and television shows.
                     </p>
 
                     <p className="font-sans text-2xl pb-5">
