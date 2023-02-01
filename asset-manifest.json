@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Challenge-20---React-Portfolio/static/css/main.d03471dc.css",
-    "main.js": "/Challenge-20---React-Portfolio/static/js/main.1959c5aa.js",
+    "main.js": "/Challenge-20---React-Portfolio/static/js/main.c0804431.js",
+    "static/media/Profile.png": "/Challenge-20---React-Portfolio/static/media/Profile.6df5a5e3a65c293b9389.png",
     "index.html": "/Challenge-20---React-Portfolio/index.html",
     "main.d03471dc.css.map": "/Challenge-20---React-Portfolio/static/css/main.d03471dc.css.map",
-    "main.1959c5aa.js.map": "/Challenge-20---React-Portfolio/static/js/main.1959c5aa.js.map"
+    "main.c0804431.js.map": "/Challenge-20---React-Portfolio/static/js/main.c0804431.js.map"
   },
   "entrypoints": [
     "static/css/main.d03471dc.css",
-    "static/js/main.1959c5aa.js"
+    "static/js/main.c0804431.js"
   ]
 }
