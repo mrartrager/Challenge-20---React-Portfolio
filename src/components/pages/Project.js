@@ -17,14 +17,14 @@ const Project = () => {
     {
       img: Game,
       title: 'Gameboxed',
-      desc: 'A game website where users can create an account, review games, add favorite games to thier profile,',
+      desc: 'A game website where users can create an account, review games, add favorite games to their profile,',
       link: "https://gamebox.herokuapp.com/",
       repo: "https://github.com/WesleyLere/Gameboxd",
     },
     {
       img: Horoscope,
       title: 'Horoscope',
-      desc: 'A website where users can search a date, find a list of famous people born that day, and see thier horoscope',
+      desc: 'A website where users can search a date, find a list of famous people born that day, and see their horoscope',
       link: "https://nwsheats.github.io/Sign-of-the-Times/",
       repo: "https://github.com/Nwsheats/Sign-of-the-Times",
     },
