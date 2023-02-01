@@ -52,13 +52,13 @@ const Project = () => {
                   {projects.desc}
                 </p>
 
-                <div className='cursor-pointer text-3xl hover:text-purple-500' >
-                  <a href={projects.link}>
+                <div className='cursor-pointer text-3xl' >
+                  <a className=" hover:text-purple-500" href={projects.link}>
                     Live Link
                   </a>
                 </div>
-                <div className='cursor-pointer text-3xl hover:text-orange-400'>
-                  <a href={projects.repo}>
+                <div className='cursor-pointer text-3xl'>
+                  <a className=" hover:text-orange-400"href={projects.repo}>
                     Github Repo for project
                   </a>
                 </div>
