@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Challenge-20---React-Portfolio/static/css/main.d03471dc.css",
-    "main.js": "/Challenge-20---React-Portfolio/static/js/main.1d64608f.js",
+    "main.js": "/Challenge-20---React-Portfolio/static/js/main.22218688.js",
     "static/media/gameboxed.png": "/Challenge-20---React-Portfolio/static/media/gameboxed.22cfcae56b6aa5dd2cf6.png",
     "static/media/horoscope.png": "/Challenge-20---React-Portfolio/static/media/horoscope.7dc6ef5e20c2e15e0ef3.png",
     "static/media/Profile.png": "/Challenge-20---React-Portfolio/static/media/Profile.6df5a5e3a65c293b9389.png",
     "static/media/playablePiano.png": "/Challenge-20---React-Portfolio/static/media/playablePiano.e68ed68323c3d918ce97.png",
     "index.html": "/Challenge-20---React-Portfolio/index.html",
     "main.d03471dc.css.map": "/Challenge-20---React-Portfolio/static/css/main.d03471dc.css.map",
-    "main.1d64608f.js.map": "/Challenge-20---React-Portfolio/static/js/main.1d64608f.js.map"
+    "main.22218688.js.map": "/Challenge-20---React-Portfolio/static/js/main.22218688.js.map"
   },
   "entrypoints": [
     "static/css/main.d03471dc.css",
-    "static/js/main.1d64608f.js"
+    "static/js/main.22218688.js"
   ]
 }
