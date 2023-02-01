@@ -1,24 +1,28 @@
 import React from 'react';
+import Piano from '../../images/playablePiano.png';
+import Game from '../../images/gameboxed.png';
+import Horoscope from '../../images/horoscope.png';
+
 
 // import Img from './playablePiano.png' 
 const Project = () => {
   const projects = [
     {
-      img: '/images/playablePiano.png',
+      img: {Piano},
       title: 'Playable Piano',
       desc: 'A mini piano than can be played from your computer keyboard',
       link: "https://mrartrager.github.io/Playable-Piano/",
       repo: "https://github.com/mrartrager/Playable-Piano",
     },
     {
-      img: '/images/gameboxed.png',
+      img: {Game},
       title: 'Gameboxed',
       desc: 'A game website where users can create an account, review games, add favorite games to thier profile,',
       link: "https://gamebox.herokuapp.com/",
       repo: "https://github.com/WesleyLere/Gameboxd",
     },
     {
-      img: '/images/horoscope.png',
+      img: {Horoscope},
       title: 'Horoscope',
       desc: 'A website where users can search a date, find a list of famous people born that day, and see thier horoscope',
       link: "https://nwsheats.github.io/Sign-of-the-Times/",
