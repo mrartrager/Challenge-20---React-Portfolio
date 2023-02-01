@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 // import Header from './components/Header';
 import Project from './pages/Project';
 import NavTabs from './NavTabs';
+import Resume from './pages/Resume';
 // function App(){
 
 //     const [currentPage, setCurrentPage ] = useState('about')
@@ -45,6 +46,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Projects') {
       return <Project />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <Contact />;
   };

@@ -49,6 +49,17 @@ function NavTabs({ currentPage, handlePageChange }) {
                 Contact
               </a>
             </li>
+            <li className="hover:scale-[1.2] hover:text-fuchsia-500 hover:drop-shadow-lg m-5 p-5 nav-item">
+              <a
+                href="#Resume"
+                onClick={() => handlePageChange('Resume')}
+                // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+              >
+                Resume
+              </a>
+            </li>
           </nav>
 
         </div>

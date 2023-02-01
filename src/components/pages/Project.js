@@ -38,7 +38,7 @@ const Project = () => {
             Projects
           </h2>
 
-          <p className="font-sans text-2xl pb-5">
+          <p className="text-2xl pb-5">
             The following are a selection of my most notable projects. Some were executed in collaboration with other developers, whereas others were independently completed by me. In all cases, I was responsible for the front-end design. The majority of these projects were developed utilizing the Tailwind framework.
           </p>
         </div>
@@ -52,17 +52,17 @@ const Project = () => {
             <div className='hover:shadow-2xl hover:drop-shadow-2xl  hover:scale-[.9] transition ease-in-out p-10 m-10 border-double border-4 rounded-2xl border-indigo-600'>
               <img className="border-solid border-8 rounded-2xl" src={projects.img} alt={projects.title} />
               <div className=''>
-                <p className='font-sans text-2xl pb-5 m-5 p-5'>
+                <p className='text-2xl pb-5 m-5 p-5'>
                   {projects.desc}
                 </p>
 
                 <div className='cursor-pointer text-3xl' >
-                  <a className=" hover:text-purple-500" href={projects.link}>
+                  <a target="_blank" className=" hover:text-purple-500" href={projects.link}>
                     Live Link
                   </a>
                 </div>
                 <div className='cursor-pointer text-3xl'>
-                  <a className=" hover:text-orange-400"href={projects.repo}>
+                  <a target="_blank" className=" hover:text-orange-400"href={projects.repo}>
                     Github Repo for project
                   </a>
                 </div>
