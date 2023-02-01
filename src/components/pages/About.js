@@ -40,7 +40,7 @@ const About = () => {
                     </p>
                 </div>
                 <div>
-                    <img className='rounded-full m-10 p-10 blur-sm transition ease-in-out hover:blur-none hover:drop-shadow-2xl hover:rotate-[17deg] ' src='../../public/images/Profile.png' alt='image of person who made this site'></img>
+                    <img className='rounded-full m-10 p-10 blur-sm transition ease-in-out hover:blur-none hover:drop-shadow-2xl hover:rotate-[17deg] ' src='.././public/images/Profile.png' alt='image of person who made this site'></img>
                 </div>
             </div>
         </section>
