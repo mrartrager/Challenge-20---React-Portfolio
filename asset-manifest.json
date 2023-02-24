@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Challenge-20---React-Portfolio/static/css/main.71fb6c73.css",
-    "main.js": "/Challenge-20---React-Portfolio/static/js/main.1639a1c6.js",
+    "main.js": "/Challenge-20---React-Portfolio/static/js/main.a6e52da1.js",
     "static/media/gameboxed.png": "/Challenge-20---React-Portfolio/static/media/gameboxed.22cfcae56b6aa5dd2cf6.png",
     "static/media/horoscope.png": "/Challenge-20---React-Portfolio/static/media/horoscope.7dc6ef5e20c2e15e0ef3.png",
+    "static/media/Spudget.png": "/Challenge-20---React-Portfolio/static/media/Spudget.5d3bf2a2249eb590b561.png",
     "static/media/Profile.png": "/Challenge-20---React-Portfolio/static/media/Profile.6df5a5e3a65c293b9389.png",
     "static/media/MyResume.pdf": "/Challenge-20---React-Portfolio/static/media/MyResume.084f609ff31b1c2eed7c.pdf",
     "static/media/playablePiano.png": "/Challenge-20---React-Portfolio/static/media/playablePiano.e68ed68323c3d918ce97.png",
     "index.html": "/Challenge-20---React-Portfolio/index.html",
     "main.71fb6c73.css.map": "/Challenge-20---React-Portfolio/static/css/main.71fb6c73.css.map",
-    "main.1639a1c6.js.map": "/Challenge-20---React-Portfolio/static/js/main.1639a1c6.js.map"
+    "main.a6e52da1.js.map": "/Challenge-20---React-Portfolio/static/js/main.a6e52da1.js.map"
   },
   "entrypoints": [
     "static/css/main.71fb6c73.css",
-    "static/js/main.1639a1c6.js"
+    "static/js/main.a6e52da1.js"
   ]
 }
