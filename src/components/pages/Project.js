@@ -2,11 +2,18 @@ import React from 'react';
 import Piano from '../../images/playablePiano.png';
 import Game from '../../images/gameboxed.png';
 import Horoscope from '../../images/horoscope.png';
-
+import Spudget from '../../images/Spudget.png'
 
 // import Img from './playablePiano.png' 
 const Project = () => {
   const projects = [
+    {
+      img: Spudget,
+      title: 'Spudget',
+      desc: 'A budget and spending tracker with receipt image import',
+      link: "http://www.spudget.net/",
+      repo: "https://github.com/WesleyLere/Spudget",
+    },
     {
       img: Piano,
       title: 'Playable Piano',
